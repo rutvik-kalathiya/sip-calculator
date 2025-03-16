@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SIP & Investment Calculator 💰📈
 
-## Getting Started
+A **Systematic Investment Plan (SIP) & Investment Calculator** to help users estimate their future investment value based on monthly contributions, expected returns, lump sum investments, and a step-up SIP percentage.
 
-First, run the development server:
+🚀 **Live Demo**: [SIP101](https://sip101.netlify.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This project provides an intuitive way to calculate and visualize investment growth with flexible options such as monthly SIP, lump sum investment, annual step-up increments, and customizable expected returns.
+
+---
+
+## 📌 Features
+- **SIP Calculation** – Estimate future returns based on regular monthly investments.
+- **Lump Sum Investment** – Calculate growth from a single, one-time investment.
+- **Step-up SIP** – Automatically increment investment annually to maximize gains.
+- **Interactive Graph** – Visualize your investment breakdown clearly and interactively.
+- **Dark & Light Mode** – Toggle themes for optimal viewing comfort.
+- **Responsive UI** – Optimized for both desktop and mobile viewing.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### 1️⃣ Clone the Repository
+
+Clone the repository and navigate into the project directory:
+
+```sh
+git clone https://github.com/rutvik-kalathiya/sip-calculator
+cd sip-calculator
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install the required dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm install
+# or
+yarn install
+```
 
-## Learn More
+### 3️⃣ Run the Development Server
 
-To learn more about Next.js, take a look at the following resources:
+Start the Next.js development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Now, open [http://localhost:3000](http://localhost:3000) in your browser to explore the SIP & Investment Calculator.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project leverages the following technologies:
+
+- **Next.js** – Optimized server-side rendering and seamless routing.
+- **React** – Modular and reusable UI components.
+- **TypeScript** – Strong type-checking for reliable and scalable code.
+- **Tailwind CSS** – Modern, utility-first CSS framework supporting dark mode.
+- **Recharts** – Interactive, responsive charts to visualize investments.
+- **ShadCN** – Intuitive UI components for enhanced usability.
+
+---
+
+## 📊 How It Works
+
+Users can input various parameters to see investment growth:
+
+- **Monthly Investment** – Fixed monthly contribution.
+- **Expected Return Rate (%)** – Anticipated annual return rate.
+- **Investment Duration (Years)** – Period of investment.
+- **Step-up SIP (%)** – Annual increase percentage in monthly contributions.
+- **Lump Sum Investment (Optional)** – One-time initial investment amount.
+
+---
+
+## 🚀 Deployment
+
+You can deploy this project easily using platforms like:
+
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+- Any other static hosting provider supporting Next.js applications.
