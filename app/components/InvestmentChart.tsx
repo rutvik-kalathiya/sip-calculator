@@ -10,9 +10,8 @@ interface ChartProps {
 }
 
 export default function InvestmentChart({ futureValues }: ChartProps) {
-  if (futureValues.length === 0) return null;
-
   const { theme } = useContext(ThemeContext); // Get the current theme
+  if (futureValues.length === 0) return null;
 
   // Define colors based on theme
   const lightColors = ["#1E3A8A", "#9333EA"]; // Blue & Purple for Light Mode
