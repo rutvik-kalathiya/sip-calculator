@@ -25,7 +25,7 @@ export default function InvestmentCalculator() {
     const stepUpMultiplier = 1 + stepUpSip / 100; 
 
     // Total Invested Amount Calculation
-    let investedAmount = 0;
+    let investedAmount = lumpsum;
     let monthlyInvestmentAdjusted = monthlyInvestment;
     let futureValue_GA = 0;
 
