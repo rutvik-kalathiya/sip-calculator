@@ -89,7 +89,7 @@ const handleInputChange = (
             </CardHeader>
             <CardContent>
               {/* Lumpsum Investment */}
-              <div className="mb-4">
+              <div className="mb-4 mt-4">
                 <Label className="text-sm">Lumpsum Investment (₹)</Label>
                 <div className="flex justify-between items-center">
                   <Slider
