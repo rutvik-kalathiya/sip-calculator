@@ -79,7 +79,7 @@ const handleInputChange = (
 };
 
   return (
-    <section id="calculator" className="bg-background text-foreground flex items-center justify-center h-[90vh]">
+    <section id="calculator" className="bg-background text-foreground flex items-center justify-center">
       <div className="container flex justify-center">
       <Card className="p-6 flex flex-col md:flex-row gap-6 bg-white dark:bg-gray-800 shadow-lg w-full">
           {/* Left Side - Calculator */}
